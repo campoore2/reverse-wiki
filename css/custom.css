@@ -1,3 +1,33 @@
+/*
+body * {
+  border: 1px solid red;
+}*/
+
+
+/* main body content area */
+
+#mainbody {
+  margin-left: 230px;
+}
+
+#mainbody div:first-child {
+  height: 190px;
+}
+
+#sportsdude {
+  float: left;
+  padding-bottom: 11px;
+  padding-right: 10px;
+}
+
+#bird {
+  float: right;
+}
+
+.row div h3 {
+  border: 1px solid #888;
+}
+
 
 
 
@@ -27,4 +57,51 @@
   border-top: 1px solid #000;
   padding-top: 6px;
   padding-left: 12px;
+}
+
+
+
+/* topright navigation header */
+
+
+
+#topright ul {
+  list-style: none;
+  margin-right: 8px;
+  float: right;
+}
+
+#topright li {
+  display: inline;
+  float: left;
+  font-size: .9em;
+  padding: 8px 3px 0 4px;
+}
+
+/* second navigation header */
+#mainnavigation {
+  display: block;
+  padding-top: 30px;
+}
+
+#mainnavigation ul:first-of-type {
+  list-style: none;
+  float: left;
+}
+
+#mainnavigation ul:last-of-type {
+  list-style: none;
+  float: right;
+}
+
+#mainnavigation li {
+  display: inline;
+  float: left;
+  font-size: .9em;
+  padding: 8px 3px 0 4px;
+}
+
+#formdiv {
+  display: block;
+  float: right;
 }
